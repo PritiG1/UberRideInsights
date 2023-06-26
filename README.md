@@ -74,9 +74,9 @@ Please refer to the [EDA-uberdata.ipynb](EDA-uberdata.ipynb) notebook for detail
 
 ### Dynamic Heat Map
 
-To view the interactive dynamic heat map, please open the [heatmap.html](heatmap.html) file.
+![Dynamic Heat Map Preview](heatmap_preview.png)
 
-<iframe src="heatmap.html" width="800" height="600"></iframe>
+To view the interactive dynamic heat map, please open the [heatmap.html](heatmap.html) file in your browser. The toggle bar can be slided to see the change in pickup locations with respect to each hour.
 
 
 ### `Insights`
