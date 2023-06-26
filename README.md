@@ -41,8 +41,71 @@ Analyzing Uber ride data provides valuable insights to:
 
 By leveraging data analysis, Uber can make informed decisions, improve operations, and deliver exceptional customer experiences in the competitive ride-hailing industry.
 
-### EDA
-Coming soon!
+### Notebook
+
+Please refer to the [EDA-uberdata.ipynb](EDA-uberdata.ipynb) notebook for detailed analysis and code scripts.
+
+### Analysis Figures
+
+### Figure 1: Rides by Days
+
+![Rides by Days](rides_days.png)
+*Figure 1: Distribution of rides over days of the month.*
+
+### Figure 2: Rides by Hour
+
+![Rides by Hour](rides_hour.png)
+*Figure 2: Distribution of rides over hours of the day.*
+
+### Figure 3: Average Rides per Day per Hour
+
+![Average Rides per Day per Hour](avgrides_day_hour.png)
+*Figure 3: Average number of rides per day per hour.*
+
+### Figure 4: Rides Heatmap by Hour
+
+![Rides Heatmap by Hour](rides_heatmap_hour.png)
+*Figure 4: Heatmap showing the density of rides at different hours of the day.*
+
+### Figure 5: Rides by Base Location
+
+![Rides by Base Location](rides_base.png)
+*Figure 5: Distribution of rides across different base locations.*
+
+### Dynamic Heat Map
+
+To view the interactive dynamic heat map, please open the [heatmap.html](heatmap.html) file.
+
+<iframe src="heatmap.html" width="800" height="600"></iframe>
+
+
+### `Insights`
+
+- The average number of rides in April is approximately 19,000.
+
+    - Weekdays exhibit consistent booking patterns, while weekends, especially Sundays, have lower demand.
+
+- Peak ride hours are observed during morning (7-9 am) and evening (5-7 pm) commute times.
+
+    - Optimizing driver management can reduce waiting times and enhance customer satisfaction.
+
+- The average rides per day per hour plot reveals weekday peaks during office hours and additional peaks on Friday and Saturday evenings.
+
+    - Social outings contribute to higher demand during weekend evenings.
+
+- Base location codes, such as B02598 and B02682, have the highest number of bookings.
+
+    - Efficient driver allocation and demand analysis can be achieved using these codes.
+
+- The scatter plot of latitude and longitude depicts pickup locations, with the dark blue central area indicating high-demand regions.
+
+    - Overlaying the plot on a geographical map can provide contextual understanding.
+
+- The dynamic heat map helps identify hotspots and high-density pickup areas.
+
+    - It assists in optimizing resource allocation and understanding customer preferences.
+
+By analyzing these insights, businesses can enhance their operations, improve customer experiences, and make data-driven decisions for better performance.
 
 
 ### Acknowledgments
